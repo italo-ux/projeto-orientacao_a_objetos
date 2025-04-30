@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientacao a objetos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>    
+ <nav>
+  
+
+        <div class="container-fluid">
+           <img id="imagem" src="https://static.vecteezy.com/system/resources/previews/027/127/560/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="logo">
+            <a class="navbar-brand" href="#introducao">Introdução</a>
+            <a class="navbar-brand" href="#conceitos">Conceitos</a>
+            <a class="navbar-brand" href="#Exemplos">Exemplos</a>
+        </div>
+
+ </nav>
+</header>
+<section class="introducao" id="introducao">
+        <h1 class="text-center">Orientação a Objetos</h1>
+        <p class="lead text-center">Aprenda os conceitos fundamentais de orientação a objetos em <span class="highlight">JavaScript.</span></p>
+    </div>
+    <div class="introducao">
+        <h2 class="text-left">Introdução</h2>
+
+        <p class="text-justify">
+            Orientação a objetos em JavaScript é um paradigma de programação baseado no conceito de objetos, que representam entidades do mundo real com propriedades (dados) e métodos (ações). Esse estilo de programação permite organizar o código de forma mais modular e reutilizável. JavaScript suporta orientação a objetos por meio de protótipos e, a partir do ES6, também por meio de classes. Os principais princípios da orientação a objetos são encapsulamento (ocultação dos detalhes internos), herança (reutilização de código por meio de classes derivadas) e polimorfismo (capacidade de diferentes objetos responderem de forma específica a uma mesma operação).
+        </p>
+    </div>
+    </div>
+</section>
+<section class="conceitos" id="conceitos">
+   
+    <div class="introducao">
+        <h2 class="text-left">Conceitos</h2>
+<div class="row">
+
+        <p class="text-justify col-md-6">
+            A orientação a objetos em JavaScript é um paradigma que organiza o código em torno de objetos, facilitando a criação de sistemas mais estruturados e reutilizáveis. Um objeto representa uma entidade com propriedades e comportamentos. Classes funcionam como moldes para criar objetos semelhantes, e cada objeto criado é chamado de instância.
+
+            A herança permite que uma classe herde características de outra, promovendo a reutilização de código. O encapsulamento protege os dados internos dos objetos, permitindo acesso apenas por meio de métodos definidos. Já o polimorfismo possibilita que métodos sejam redefinidos em classes filhas, adaptando o comportamento conforme o contexto.
+            
+            Esses conceitos tornam o JavaScript mais eficiente para o desenvolvimento de aplicações complexas e organizadas.
+        </p>
+        <img class="col-md-6" src="img/oritencao.png" alt="">
+    </div>
+    </div>
+    </div>
+</section>
+<section class="Exemplos" id="Exemplos">
+    <div class="introducao">
+        <div class="row">
+            <!-- Coluna 1: Exemplos -->
+            <div class="col-md-6">
+                <h2 class="text-left">Exemplos</h2>
+                <p class="text-justify">
+                    Temos um objeto criado em:
+                </p>
+                <div class="codigos">
+                    const pessoa = { <br>
+                    nome: "João", <br>
+                    idade: 30, <br>
+                    profissao: "Desenvolvedor", <br>
+                    }
+                    
+                </div>
+            </div>
+
+      
+            <div class="col-md-6">
+                <h2 class="text-left">Na prática</h2>
+                <p class="text-justify">
+                Nome: <span id="nome"></span><br>
+                Idade: <span id="idade"></span><br>
+                Profissão: <span id="profissao"></span><br>
+                <button id="executar" >executar</button>
+            </div>
+        </div>
+    </div>
+    <p class="text-justify">
+    
+    </p>
+   
+</div>
+</div>
+
+<div class="introducao">
+    <div class="row">
+        <!-- Coluna 1: Exemplos -->
+        <div class="col-md-6">
+        
+            <p class="text-justify">
+                Temos outro exemplo em:
+            </p>
+            <div class="codigos">
+                const animal = { <br>
+                nome: "Galinha", <br>
+                Especie: "Gallus gallus domesticus" , <br>
+                classe:"Aves" , <br>
+                familia: "Phasianidae", <br>
+                }
+                
+            </div>
+        </div>
+
+  
+        <div class="col-md-6">
+            <h2 class="text-left">Na prática</h2>
+            <p class="text-justify">
+            Nome: <span id="nome1"></span><br>
+            Especie: <span id="idade1"></span><br>
+            classe: <span id="profissao1"></span><br>
+            familia: <span id="profissao2"></span><br>
+            <button id="executar1" >executar</button>
+        </div>
+    </div>
+</div>
+<p class="text-justify">
+    
+</p>
+
+</div>
+</div>
+
+
+</section>
+<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+    background-color: #141414;
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0px;
+}
+#imagem{
+    width: 90px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+header{
+    background-color: #131313;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 20px;
+  
+}
+.navbar-brand:hover{
+    color: #ffdf2b;
+    text-decoration: none;
+    font-size: 20px;
+}
+.introducao{
+    padding: 20px;
+    
+}
+.conceitos{
+    padding: 20px;
+}
+.Exemplos{
+    padding: 20px;
+}
+.text-center{
+    text-align: center;
+    color:#ffffff;  
+
+}   
+
+.highlight {
+    color: #ffdf2b; /* Cor amarela */
+    font-weight: bold; /* Opcional: negrito */
+}
+.introducao h2{
+    color:  #ffdf2b;
+    font-size: 24px;
+}
+.introducao p{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: justify;
+}
+.codigos{
+    color: #ffdf2b;
+}
+h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.roboto-mono-<uniquifier> {
+   
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+  }
